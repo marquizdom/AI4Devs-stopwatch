@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Timing App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="stopwatch" class="timer">
+            <h2>Stopwatch</h2>
+            <div id="stopwatch-display">00:00:00.000</div>
+            <button id="stopwatch-start">Start</button>
+            <button id="stopwatch-pause">Pause</button>
+            <button id="stopwatch-reset">Reset</button>
+            <button id="stopwatch-lap">Lap</button>
+            <div id="stopwatch-laps"></div>
+        </div>
+        <div id="countdown" class="timer">
+            <h2>Countdown</h2>
+            <input type="number" id="countdown-input" placeholder="Seconds">
+            <div id="countdown-display">00:00:00</div>
+            <button id="countdown-start">Start</button>
+            <button id="countdown-pause">Pause</button>
+            <button id="countdown-reset">Reset</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
