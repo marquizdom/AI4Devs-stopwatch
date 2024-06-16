@@ -1,8 +1,8 @@
 # Prompts
 
-## Prompt 1
+I used chatGPT with the free version.
 
-As a software engineer we need to design a web application for an athletic sport club, it needs to measure the timings for a tournament; the feature for this web application is a stopwatch, so we need to be accurated and precise calculating the timing and avoid delays in the results, we need to show the results for any kind of device that access to the app; for that reason is important to design a sofisticated and responsive user friendly UI with emojis and animations when starting and finishing. Don't write code now, just analyze the product, and the technical solution for this application, choosing an adeaqueated framework and language for the implementation, write the documentation with a markdown format.
+## Prompt 1
 
 I want you act as a fullstack software engineer we need to design a web page for an athletic sport club, it needs to measure the timings for a tournament, the idea is to implement the web page with two features: a stopwatch and a countdown, it needs to be accurated and precise calculating the timing and showing the exact timings in hours, minutes, seconds and milliseconds for the results.
 
