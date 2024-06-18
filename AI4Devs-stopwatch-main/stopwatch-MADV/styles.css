@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.mode-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mode-button:hover {
+    background-color: #777;
+}
+
+.timer {
+    font-size: 48px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #e0e0ff;
+    border-radius: 10px;
+    border: 2px solid #333;
+    color: #333;
+}
+
+.keypad {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.keypad input {
+    font-size: 24px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+}
+
+.control-buttons {
+    display: none;
+    margin-top: 20px;
+}
+
+.control-button {
+    padding: 20px 40px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pause {
+    background-color: #FFEB3B;
+    color: black;
+}
+
+.stop {
+    background-color: #F44336;
+    color: white;
+}
